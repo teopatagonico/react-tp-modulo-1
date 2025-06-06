@@ -1,0 +1,21 @@
+body {
+    background-color: #00003f;
+}
+
+#registry-container {
+    background-color: #00001f;
+    color: white;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#registry-container > h1 {
+    min-width: fit-content(120%);
+    background: linear-gradient(#00001f, #00003f, #00001f)
+}
+
+#form {
+    display: flexbox;
+    justify-items: center;
+    align-items:center
+}

@@ -2,7 +2,7 @@ import Campo from "./Campo"
 
 function Formulario() {
     return (
-        <form>
+        <form id="form">
             <Campo name="Nombre" type="text"/>
             <Campo name="Apellido" type="text"/>
             <Campo name="Email" type="text"/>

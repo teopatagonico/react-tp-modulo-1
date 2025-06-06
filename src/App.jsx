@@ -3,7 +3,8 @@ import Formulario from "./componentes/Formulario.jsx"
 
 function App() {
   return (
-    <div className="formulario">
+    <div id="registry-container">
+      <h1>Registro</h1>
       <Formulario />
     </div>
   )
